@@ -1,3 +1,8 @@
 function myFunction() {
-  document.getElementById("displayinfo").innerHTML = "I never BELIEVE in luck without effort, So I create luck by myself, day by day";
-  }
+    var believe = "BELIEVE";
+    var believebold = believe.bold();
+    var colorbold = believebold.fontcolor("red");
+    var phrase = "I never " + colorbold + " in luck without effort, so I create luck by myself, day by day.";
+    document.getElementById("displayinfo").innerHTML =phrase;
+}
+

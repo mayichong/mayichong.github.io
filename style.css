@@ -115,7 +115,20 @@ body{
 
 .Yi {
 	background-color: #5DADE2;
-	
-	
+	margin-top: 50px;
 }
 
+.w3-animate-opacity{
+  animation:opac 1s;
+}
+
+.quote {
+    border: 0.01px solid white;
+    margin-top: -50px;
+    height: 50px;
+
+}
+.tada {
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+}
