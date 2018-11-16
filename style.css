@@ -14,7 +14,7 @@
 .navbar{
 font-family:Sofia;
 	position: absolute; top: 0; right:0; height:50px;
-	
+
 }
 
 body{
@@ -56,11 +56,6 @@ body{
 .selected {
 
 	font-weight: bold;
-}
-
-.dashboard {
-	border: 1px solid red;
-	height: 500px;
 }
 
 
@@ -114,21 +109,72 @@ body{
 }
 
 .Yi {
-	background-color: #5DADE2;
+
 	margin-top: 50px;
-}
+    border:none;
+    padding: 10px;
+    background-color:transparent;
+    border-radius: 20px;
+    font-size: 40px;
 
-.w3-animate-opacity{
-  animation:opac 1s;
 }
-
+.Yi:focus {
+    color: black;
+    outline:none;
+}
 .quote {
     border: 0.01px solid white;
     margin-top: -50px;
     height: 50px;
+    border: 1px solid red;
 
 }
 .tada {
     animation-duration: 3s;
     animation-iteration-count: 3;
 }
+.dbp {
+
+    border: 1px solid blue;
+    position: absolute;
+    height:550px;
+    width:100%;
+    top: 50px; left:0px;
+    z-index:-1;
+}
+
+.tracking-in-expand {
+    -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s both;
+    animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+

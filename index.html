@@ -29,6 +29,9 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
+    <!--google font-->
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
 
     <title>Personal Web Page</title>
 
@@ -62,15 +65,20 @@
         </ul>
     </div>
 </nav>
-<div class="Yichong w3-container w3-center w3-animate-opacity">
+<div class="Yichong">
 
+    <!--quote-->
     <div class="quote" >
-        <p class="animated fadeIn" id="displayinfo"></p>
+        <p class="animated fadeIn delay-2s" id="displayinfo"> I never <b>BELIEVE</b> in luck without effort, <br>so I create luck by myself, day by day.</p>
     </div>
 
-    <button onclick="myFunction()" type="button" class="btn btn-default btn-lg hvr-bounce-to-top Yi animated tada delay - 1s">
-        <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Yichong
-    </button>
+    <!--BG-->
+    <div class="dbp">
+
+    </div>
+
+    <!--button -->
+    <button onclick="myFunction()" type="button" class="Yi tracking-in-expand">Yichong</button>
 </div>
 
 <!-- Optional JavaScript -->
@@ -84,15 +92,5 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
-<script>
-    $(document).ready(function(){
-        $("button").click(function(){
-            $(".quote").addClass("animated jackInTheBox");
-        });
-    });
-</script>
-
-
 </body>
 </html>
