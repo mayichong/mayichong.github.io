@@ -230,9 +230,15 @@ body{
     animation-direction: normal, alternate;
 }
 
-.hang{
+.hang1{
     text-align:center;
     margin-top: 160px;
+    text-decoration:none;
+}
+
+.hang2{
+    text-align:center;
+
     text-decoration:none;
 }
 
@@ -248,7 +254,7 @@ body{
 }
 
 .overView {
-    height: 500px;
+
 
     margin-top: 100px;
 }
@@ -256,7 +262,7 @@ body{
 .questionHeader {
     padding: 10px;
 }
-.food{
+.food .travel .comp .me{
 
 
     display: block;
@@ -265,18 +271,6 @@ body{
 
 }
 
-.travel{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.comp {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .I {
     color: #7D3C98;
@@ -290,5 +284,71 @@ body{
     border-left: 6px solid #2ECC71;
 
 
+}
+
+.personal {
+
+
+    margin-top: 50px;
+
+}
+
+.me{
+    margin-bottom: 40px;
+}
+
+.hang3{
+    text-align:center;
+
+    text-decoration:none;
+}
+
+.realme{
+    text-align: center;
+    font-family: "Amaranth";
+    padding-bottom: 40px;
+
+}
+
+#pe{
+    margin-top: 70px;
+    color: white;
+    font-family: "Amaranth";
+    background-image: url("images/b1.jpg");
+    background-size:cover;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    background-color:transparent;
+}
+
+.botmenu {
+    margin-top: 80px;
+}
+
+.feelfree {
+    text-align:center;
+}
+
+.container{
+    text-align: center;
+}
+
+.bot{
+    margin-top: 50px;
 }
 
