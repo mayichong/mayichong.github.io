@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 
-
-
+    <!--scroll animation-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -88,21 +88,57 @@
 
 </div>
 
-    <div class="dash3">
-        <i class="fas fa-desktop fa-3x"></i>
-        <i class="fas fa-utensils fa-3x"></i>
-
-        <i class="fas fa-globe-americas fa-3x" ></i>
-    </div>
-
     <div class="hang">
-        <a href="#" class="hvr-icon-hang animated fadeIn delay-3s">
+        <a href="#overView" class="hvr-icon-hang animated fadeIn delay-3s">
 
             <i class="fa fa-chevron-down hvr-icon fa-1.5x">
 
             </i>
         </a>
     </div>
+
+
+
+
+
+<div id = "overView" class ="overView container" data-aos="fade-up">
+
+<h1 class="questionHeader" style="font-family: 'Open Sans';">WHO AM <span class = "I"><b>I</b></span>?</h1>
+
+    <div class="row">
+        <div class="col-sm">
+            <img class = "food" src="images/food.png" alt="food" height="250" width="250" style="text-align:center";>
+            <blockquote class="quotes">
+
+                I love eating. Eating is everything.<br>
+                Anywhere, anytime.
+
+            </blockquote>
+        </div>
+        <div class="col-sm">
+            <img class = "comp" src="images/comp.png" alt="food" height="250" width="250">
+            <blockquote class="quotes">
+                Electronic Devices. Mobile phones to computers.<br>
+                Webs, Games.
+
+
+            </blockquote >
+        </div>
+        <div class="col-sm">
+            <img class = "travel" src="images/travel.png" alt="food" height="250" width="250">
+            <blockquote class="quotes">
+                Who doesn't like to travel? <br>Backpack ready, let's go!
+
+            </blockquote>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -116,19 +152,26 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 
 <script>
     var time1 = "night by night";
-
+    var Yichong = "Yichong";
+    var YichongBold = Yichong.bold();
+    var YichongColorBold = YichongBold.fontcolor("#7D3C98");
 
     $(document).ready(function(){
         $(".Yi").click(function(){
             $(".time").text(time1).addClass("animated fadeIn");
-
             $(".Yi").css("color","darkblue");
         });
     });
+
+
 
 </script>
 
