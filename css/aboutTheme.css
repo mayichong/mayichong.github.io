@@ -58,7 +58,7 @@ font-family:Sofia;
 }
 
 body{
-  background-image:url("images/b2.jpg");
+  background-image:url("../images/b2.jpg");
 	
 }
 
@@ -375,7 +375,7 @@ body{
     margin-top: 70px;
     color: white;
     font-family: "Amaranth";
-    background-image: url("images/b1.jpg");
+    background-image: url("../images/b1.jpg");
     background-size:cover;
     margin-bottom: 20px;
     padding-bottom: 50px;

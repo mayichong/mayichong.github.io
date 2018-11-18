@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Sofia);
+.language{
+    float:right;
+    position:absolute;
+    top: 60px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    z-index:0;
+}
+
+.language:focus{
+    outline: none;
+}
+
+.langchoice{
+    float:right;
+    position:absolute;
+    top: 62px;
+    right: 80px;
+    background-color: transparent;
+    border: none;
+}
+
+.English{
+    outline:none;
+    background-color:transparent;
+    border:none;
+}
+
+.English:focus {
+    outline:none;
+}
+
+.langSelected{
+    color:#5B2C6F;
+    font-weight: bold;
+    border:2px solid black;
+    border-radius: 25px;
+    padding:5px;
+}
+
+.container-fluid {
+
+    margin-left: -100px;
+}
+
+
+.navbar-nav {
+    float:none;
+    display: block;
+    text-align: center;
+}
+
+.navbar{
+    font-family:Sofia;
+    position: absolute; top: 0; right:0; height:50px;
+}
+
+body{
+    background-image:url("../images/b2.jpg");
+
+}
+
