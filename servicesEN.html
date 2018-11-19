@@ -39,7 +39,7 @@
 
 <!--navbar-->
 <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#"></a>
+    <a class="navbar-brand" href="index.html">LOGO</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -71,11 +71,11 @@
 
     <div class="langchoice">
         <button type="button" class="English langSelected">English</button>
-        <button type="button" onclick="location.href='indexCN.html';" class="English">中文</button>
+        <button type="button" onclick="location.href='servicesCN.html';" class="English">中文</button>
     </div>
     <button type="button" class="language hvr-fade animated zoomIn"><i class="fas fa-globe fa-2x"></i></button>
 
-    <div class="container">
+    <div class="container dashboard">
         <div class="row dash">
             <div class="col-sm dash1 animated fadeIn delay-0.5s">
                 <p1 style="font-family:Amaranth;">Front-end Design</p1><br>
@@ -85,23 +85,23 @@
             <div class="col-md-auto">
             </div>
             <div class="col-sm dash2 animated fadeIn delay-0.5s">
-                <p1 style="font-family:Amaranth;">Software Maintenance</p1><br>
+                <p1 style="font-family:Amaranth;">Computer Software</p1><br>
                 <a href="#frontED" class="hvr-grow">  <img class="tool" src="images/software.png" alt="tool" width="200px"></a>
-                <p style="font-family:Amaranth;">Operating Systems.</p>
+                <p style="font-family:Amaranth;">Operating Systems.<br>Software related.</p>
             </div>
             <div class="col-md-auto">
             </div>
             <div class="col-sm dash3 animated fadeIn delay-0.5s">
                 <p1 style="font-family:Amaranth;">Computer Hardware</p1><br>
-                <img class="tool" src="images/hardware.png" alt="tool" width="200px">
-                <p style="font-family:Amaranth;">Hardware related.</p>
+                <a href="#CompSw" class="hvr-grow"><img class="tool" src="images/hardware.png" alt="tool" width="200px"></a>
+                <p style="font-family:Amaranth;">Hardware related.<br>Especially PC.</p>
             </div>
             <div class="col-md-auto">
             </div>
             <div class="col-sm dash4 animated fadeIn delay-0.5s">
                 <p1 style="font-family:Amaranth;">Translation Services</p1><br>
                 <img class="tool" src="images/translate.png" alt="tool" width="130px" style="margin-top:40px;padding-bottom: 27px">
-                <p style="font-family:Amaranth;">Different languages.</p>
+                <p style="font-family:Amaranth;">From Mandarin to English,<br>vice versa.</p>
             </div>
         </div>
     </div>
@@ -161,7 +161,7 @@
 
 
     <div class="hang2" id="hang2">
-        <a href="#frontED" class="hvr-icon-hang animated fadeIn delay-1s">
+        <a href="#CompSw" class="hvr-icon-hang animated fadeIn delay-1s">
             <i class="fa fa-chevron-down hvr-icon fa-1.5x">
             </i>
         </a>
@@ -172,16 +172,11 @@
 
 
 
-    <div class="container-fluid SM"  data-aos="zoom-in">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <p style="font-size:2em;font-family:'Amaranth';margin-top: 20px">Software Maintenance</p>
-                </div>
-                <div class="col-sm-auto">
-                </div>
-                <div class="col-sm" style="margin-top:60px">
+    <div class="container-fluid SM"  data-aos="zoom-in" id="CompSw">
 
+            <div class="row">
+                <div class="col-sm green" style="background-color: #2ECC71;margin-top:16px;">
+                    <p style="font-size:2em;font-family:'Amaranth';margin-top: 20px">Computer Software</p>
                     <blockquote class="FEDexp" style="font-family:'Amaranth';">
                         Privacy is the most important right for users. Whether it is a bank account or password, we want to keep them safe from others.
                         Thus, it is important to keep your personal device clean and safe.
@@ -189,14 +184,77 @@
                     <img src="images/theft.png" alt="theft" width="150px" style="margin-right:40px;margin-bottom:40px;margin-top:20px;">
                     <img src="images/bug.png" alt="bug" width="150px">
 
-                    <ul style="text-align:left;margin-top:20px;border-left:4px solid black;font-family:'Amaranth'">
+                    <ul style="text-align:left;margin-top:20px;margin-bottom:20px;border-left:4px solid black;font-family:'Amaranth';">
                         <li>Restore Factory Settings </li>
                         <br>
                         <li>Malware Removal </li>
                         <br>
                         <li>Software Installation/Uninstall </li>
                     </ul>
+                </div>
 
+                <div class="col-sm yellow" style="background-color: #F1C40F;margin-top:16px">
+                    <p style="font-size:2em;font-family:'Amaranth';margin-top: 20px">Computer Hardware</p>
+                    <blockquote class="FEDexp" style="font-family:'Amaranth';">
+                        Software can't run without hardware. CPU, RAM, SSD, CD-ROM.
+                        Hardware have special "link" to software in any platform.
+                        Which hardware is better? What SPECS does it have?
+                    </blockquote>
+                    <img src="images/mouse.png" alt="bug" width="150px" style="margin-right:40px;margin-bottom:40px;margin-top:20px;">
+                    <img src="images/keyboard.png" alt="bug" width="150px" style="margin-right:40px;margin-bottom:40px;margin-top:20px;">
+                    <img src="images/cpu.png" alt="bug" width="150px" style="margin-right:40px;margin-bottom:40px;margin-top:20px;">
+
+
+                    <ul style="text-align:left;margin-top:20px;margin-bottom:20px;border-left:4px solid black;font-family:'Amaranth';">
+                        <li>Analysis Hardware SPECS</li>
+                        <br>
+                        <li>Build Personal Desktop (check for compatibility) </li>
+                        <br>
+                        <li>Hardware Diagnostics</li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+
+
+    <div class="hang3">
+        <a href="#botmenu" class="hvr-icon-hang animated fadeIn delay-1s">
+            <i class="fa fa-chevron-down hvr-icon fa-1.5x">
+            </i>
+        </a>
+    </div>
+
+
+
+    <!--BotMenu-->
+    <div class="botmenu" id="botmenu" data-aos="fade-up">
+        <div class="feelfree">
+            <h3 style="font-family:'Amaranth'">Feel free to check out other pages!</h3>
+        </div>
+        <div class="container bot">
+            <div class="row">
+                <div class="col-sm">
+                    <h4><a href="index.html" style="font-family: 'Amaranth'">About</a></h4>
+                    <a href="index.html" >       <img src="images/boy.png" alt="service" height="200" width="200"> </a>
+                    <blockquote style="font-family: 'Amaranth';padding-bottom: 40px;">
+                        Homepage.
+                    </blockquote>
+                </div>
+                <div class="col-sm">
+                    <h4><a href="#" style="font-family: 'Amaranth'">Portfolio</a></h4>
+                    <a href="#" ><img src="images/portfolio.png" alt="portfolio" height="200" width="200"></a>
+                    <blockquote style="font-family: 'Amaranth';padding-bottom: 40px;" >
+                        Know about what I did.
+                    </blockquote>
+                </div>
+                <div class="col-sm">
+                    <h4><a href="#" style="font-family: 'Amaranth'">Contact</a></h4>
+                    <a href="#" ><img src="images/contact.png" alt="contact" height="200" width="200"></a>
+                    <blockquote style="font-family: 'Amaranth';padding-bottom: 40px;">
+                        Contact information.
+                    </blockquote>
                 </div>
             </div>
         </div>
@@ -206,11 +264,7 @@
 
 
 
-
-
-
-
-<!--return to top-->
+    <!--return to top-->
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-double-up"><br><span style="font-family:Amaranth">top</span></i></button>
 
 

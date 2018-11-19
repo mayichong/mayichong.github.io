@@ -115,7 +115,7 @@ body{
 }
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
 
-    color: white;
+    color: greenyellow;
 }
 
 
@@ -150,22 +150,12 @@ body{
 
 
 .quote {
-    border: 1px solid rgba(255,255,255,0.01);
+    border: 1px solid rgba(255, 255, 255, 0.01);
     margin-top: -50px;
     height: 50px;
-    font-family:Amaranth;
+    font-family: Amaranth;
 
 }
-.dbp {
-    position: absolute;
-    height:550px;
-    width:100%;
-    top: 50px; left:0px;
-    z-index:-50;
-
-
-}
-
 
 .navbar-toggler:focus{
     outline:none;
@@ -423,16 +413,12 @@ body{
 }
 
 
-.dash{
-
-    margin-top: -100px;
-}
-
 .dash1{
 
     border:3px solid ;
     border-radius:10px;
     margin-bottom: 30px;
+;
 
 }
 .dash2 {
@@ -465,7 +451,7 @@ body{
 .Yichong {
     font-family:Sofia;
     text-align:center;
-    padding-top: 200px;
+    padding-top:70px;
 
 }
 
@@ -561,9 +547,16 @@ body{
     transform: scale(1.1);
 }
 
-.SM{
-    background-color: #2ECC71;
 
-    margin-top: 16px;
+.yellow {
+
+    margin-top: 0;
+    margin-bottom: -30px;
 }
 
+.green{
+
+    margin-top: 0;
+    margin-bottom: -30px;
+
+}
