@@ -1,4 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Sofia);
+html {
+    scroll-behavior: smooth;
+}
 .language{
     float:right;
     position:absolute;

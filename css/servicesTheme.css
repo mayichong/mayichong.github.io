@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Sofia);
+
+html {
+    scroll-behavior: smooth;
+}
+
 .language{
     float:right;
     position:absolute;
@@ -60,5 +65,505 @@
 body{
     background-image:url("../images/b2.jpg");
 
+}
+
+
+.hvr-underline-from-center  {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #76D7C4;
+    height: 2px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
+
+
+.hvr-fade {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+
+    color: white;
+}
+
+
+
+.selected {
+
+    font-weight: bold;
+}
+
+
+.Yichong {
+    font-family:Sofia;
+    text-align:center;
+    padding-top: 200px;
+
+}
+
+.Yi {
+
+    margin-top: 50px;
+    border:none;
+    padding: 10px;
+    background-color:transparent;
+    border-radius: 20px;
+    font-size: 40px;
+    color:#FF7F50;
+
+}
+.Yi:focus {
+    outline:none;
+}
+
+
+.quote {
+    border: 1px solid rgba(255,255,255,0.01);
+    margin-top: -50px;
+    height: 50px;
+    font-family:Amaranth;
+
+}
+.dbp {
+    position: absolute;
+    height:550px;
+    width:100%;
+    top: 50px; left:0px;
+    z-index:-50;
+
+
+}
+
+
+.navbar-toggler:focus{
+    outline:none;
+}
+
+
+
+.show {
+    margin-left: -20px;
+    margin-right: -20px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(236, 233, 230, 0.3));
+    z-index:1;
+}
+
+.bg-pan-bottom{-webkit-animation:bg-pan-bottom 4s both;animation:bg-pan-bottom 4s both}
+
+
+@-webkit-keyframes bg-pan-bottom {
+    0% {
+        background-position: 50% 0%;
+    }
+    100% {
+        background-position: 50% 100%;
+    }
+}
+@keyframes bg-pan-bottom {
+    0% {
+        background-position: 50% 0%;
+    }
+    100% {
+        background-position: 50% 100%;
+    }
+}
+
+@-webkit-keyframes hvr-pulse {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+@keyframes hvr-pulse {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+
+
+
+@-webkit-keyframes hvr-icon-hang {
+    0% {
+        -webkit-transform: translateY(6px);
+        transform: translateY(6px);
+    }
+    50% {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);
+    }
+    100% {
+        -webkit-transform: translateY(6px);
+        transform: translateY(6px);
+    }
+}
+@keyframes hvr-icon-hang {
+    0% {
+        -webkit-transform: translateY(6px);
+        transform: translateY(6px);
+    }
+    50% {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);
+    }
+    100% {
+        -webkit-transform: translateY(6px);
+        transform: translateY(6px);
+    }
+}
+@-webkit-keyframes hvr-icon-hang-sink {
+    100% {
+        -webkit-transform: translateY(6px);
+        transform: translateY(6px);
+    }
+}
+@keyframes hvr-icon-hang-sink {
+    100% {
+        -webkit-transform: translateY(6px);
+        transform: translateY(6px);
+    }
+}
+.hvr-icon-hang {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.hvr-icon-hang .hvr-icon {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.hvr-icon-hang:hover .hvr-icon, .hvr-icon-hang:focus .hvr-icon, .hvr-icon-hang:active .hvr-icon {
+    -webkit-animation-name: hvr-icon-hang-sink, hvr-icon-hang;
+    animation-name: hvr-icon-hang-sink, hvr-icon-hang;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
+
+.hang1{
+    text-align:center;
+    margin-top: 160px;
+    text-decoration:none;
+}
+
+.hang2{
+    text-align:center;
+    text-decoration:none;
+    margin-top: -60px;
+}
+
+.fa-chevron-down{
+    color: black;
+    position:absolute;
+}
+
+.overView {
+
+
+    margin-top: 100px;
+}
+
+.questionHeader {
+    padding: 10px;
+}
+.food .travel .comp .me{
+
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.I {
+    color: #7D3C98;
+}
+
+.quotes{
+    text-align: center;
+    margin-bottom: 80px;
+    font-family: "Amaranth";
+    border-left: 6px solid #2ECC71;
+
+
+}
+
+.personal {
+
+
+    margin-top: 50px;
+
+}
+
+.me{
+    margin-bottom: 40px;
+}
+
+.hang3{
+    text-align:center;
+
+    text-decoration:none;
+}
+
+.realme{
+    text-align: center;
+    font-family: "Amaranth";
+    padding-bottom: 40px;
+
+}
+
+#pe{
+    margin-top: 70px;
+    color: white;
+    font-family: "Amaranth";
+    background-color: #38A1F3;
+    background-size:cover;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.pe{
+    margin-top: 70px;
+    color: white;
+    font-family: "Amaranth";
+    background-color: #38A1F3;
+    background-size:cover;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    background-color:transparent;
+}
+
+.botmenu {
+    margin-top: 80px;
+}
+
+.feelfree {
+    text-align:center;
+}
+
+.container{
+    text-align: center;
+}
+
+.bot{
+    margin-top: 50px;
+}
+
+
+.dash{
+
+    margin-top: -100px;
+}
+
+.dash1{
+
+    border:3px solid ;
+    border-radius:10px;
+    margin-bottom: 30px;
+
+}
+.dash2 {
+    border: 3px solid #2ECC71;
+    border-radius:10px;
+    margin-bottom: 30px;
+
+}
+.dash3{
+    border: 3px solid #F1C40F;
+    border-radius:10px;
+    margin-bottom: 30px;
+
+}
+.dash4{
+    border: 3px solid #34495E;
+    border-radius:10px;
+    margin-bottom: 30px;
+
+}
+
+.hang1{
+    text-align:center;
+    margin-top: 60px;
+    text-decoration:none;
+    position:relative;
+}
+
+
+.Yichong {
+    font-family:Sofia;
+    text-align:center;
+    padding-top: 200px;
+
+}
+
+.FEDpic{
+    margin-bottom: 20px;
+    margin-top: 60px;
+    padding-right: 0px;
+
+}
+
+.FEDexp{
+    margin-top: 40px;
+}
+
+@keyframes blink {
+    /**
+     * At the start of the animation the dot
+     * has an opacity of .2
+     */
+    0% {
+        opacity: .2;
+    }
+    /**
+     * At 20% the dot is fully visible and
+     * then fades out slowly
+     */
+    20% {
+        opacity: 1;
+    }
+    /**
+     * Until it reaches an opacity of .2 and
+     * the animation can start again
+     */
+    100% {
+        opacity: .2;
+    }
+}
+
+.saving span {
+    /**
+     * Use the blink animation, which is defined above
+     */
+    animation-name: blink;
+    /**
+     * The animation should take 1.4 seconds
+     */
+    animation-duration: 1.4s;
+    /**
+     * It will repeat itself forever
+     */
+    animation-iteration-count: infinite;
+    /**
+     * This makes sure that the starting style (opacity: .2)
+     * of the animation is applied before the animation starts.
+     * Otherwise we would see a short flash or would have
+     * to set the default styling of the dots to the same
+     * as the animation. Same applies for the ending styles.
+     */
+    animation-fill-mode: both;
+}
+
+.saving span:nth-child(2) {
+    /**
+     * Starts the animation of the third dot
+     * with a delay of .2s, otherwise all dots
+     * would animate at the same time
+     */
+    animation-delay: .2s;
+}
+
+.saving span:nth-child(3) {
+    /**
+     * Starts the animation of the third dot
+     * with a delay of .4s, otherwise all dots
+     * would animate at the same time
+     */
+    animation-delay: .4s;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.SM{
+    background-color: #2ECC71;
+
+    margin-top: 16px;
 }
 
