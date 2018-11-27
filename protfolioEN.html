@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--scroll animation-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+    <!-- Bootstrap CSS -->
+    <!-- Ensure Responsive on mobile device -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--Link StyleSheet (my own) -->
+    <link rel="stylesheet" href="css/protfolioTheme.css">
+
+    <!--Link JavaScript (my own) -->
+    <script src="script/myScript.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--google font-->
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Aref Ruqaa' rel='stylesheet'>
+
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title>Personal Web Page</title>
+</head>
+<body>
+
+<!--navbar-->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">LOGO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="index.html">About</a>
+            </li>
+            <li class="nav-item hvr-underline-from-center Services">
+                <a class="nav-link hvr-underline-from-center " href="servicesEN.html">Services</a>
+            </li>
+            <li class="nav-item hvr-underline-from-center Portfolio active">
+                <a class="nav-link selected" href="#">Portfolio</a><span
+                    class="sr-only">(current)</span>
+            </li>
+            <li class="nav-item hvr-underline-from-center Contact">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="Yichong">
+    <!--quote-->
+    <div class="container phrase">
+        <blockquote style="font-family:Amaranth;font-size:1.2em;"><i>
+            Sometimes, I see myself as a professional web developer.<br>
+            But I am just an ordinary student with big dreams.<br>
+            Life always takes something away from me, but it teaches me something greater: <br>
+            Knowledge and experience are my companions, time is my enemy.
+
+        </i>
+        </blockquote>
+    <!--BG-->
+    <div class="dbp bg-pan-bottom">
+    </div>
+    <!--button -->
+    <div class="langchoice">
+        <button type="button" class="English langSelected">English</button>
+        <button type="button" onclick="location.href='indexCN.html';" class="English">中文</button>
+    </div>
+    <button type="button" class="language hvr-fade animated zoomIn delay-2s"><i class="fas fa-globe fa-2x"></i></button>
+
+
+</div>
+
+
+
+</div>
+
+<!--downclicker-->
+<div class="hang1" cd="hang1">
+    <a href="#overView" class="hvr-icon-hang animated fadeIn delay-1s">
+        <i class="fa fa-chevron-down hvr-icon fa-1.5x">
+        </i>
+    </a>
+</div>
+
+
+
+<div class="container info">
+    <p class="eduTitle" style="text-align:center;">EDUCATION</p>
+    
+</div>
+
+
+
+    <!--return to top-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-double-up"><br><span style="font-family:Amaranth">top</span></i></button>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+
+        $(".langchoice").hide();
+        AOS.init();
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+
+    </script>
+</body>
+</html>

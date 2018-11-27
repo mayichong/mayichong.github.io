@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Sofia);
+
+html {
+    scroll-behavior: smooth;
+}
+
 .language{
     float:right;
     position:absolute;
@@ -413,3 +418,15 @@ body{
     margin-top: 50px;
 }
 
+@media (max-width: 480px) {
+    .questionHeader {
+        font-size:25px;
+
+    }
+
+    .realme {
+        font-size:30px;
+    }
+
+
+}
