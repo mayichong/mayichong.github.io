@@ -657,3 +657,14 @@ body{
 	
 	animation-duration: 2s;
 }
+
+.github{
+
+    background-color: transparent;
+    border: none;
+    z-index:0;
+}
+
+.github:focus{
+    outline: none;
+}
