@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Sofia);
 
+body{overflow-x: hidden;}
+
 html {
     scroll-behavior: smooth;
 }
