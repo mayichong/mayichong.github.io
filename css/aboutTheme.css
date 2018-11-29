@@ -1,7 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Sofia);
 
-body{overflow-x: hidden;}
-
 html {
     scroll-behavior: smooth;
 }
@@ -47,18 +45,11 @@ html {
     padding:5px;
 }
 
-.container-fluid {
-	
-	margin-left: -100px;
-}
-
-
 .navbar-nav {
-    float:none;
     display: block;
     text-align: center;
 }
-	
+
 .navbar{
 font-family:Sofia;
 	position: absolute; top: 0; right:0; height:50px;
@@ -66,9 +57,7 @@ font-family:Sofia;
 
 body{
   background-image:url("../images/b2.jpg");
-	
 }
-
 
 .hvr-underline-from-center  {
   display: inline-block;
@@ -102,7 +91,6 @@ body{
   right: 0;
 }
 
-
 .hvr-fade {
     display: inline-block;
     vertical-align: middle;
@@ -115,28 +103,22 @@ body{
     -webkit-transition-property: color, background-color;
     transition-property: color, background-color;
 }
-.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
 
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
     color: white;
 }
 
-
-
 .selected {
-
 	font-weight: bold;
 }
-
 
 .Yichong {
 	font-family:Sofia;
 	text-align:center;
   padding-top: 200px;
- 
 }
 
 .Yi {
-
 	margin-top: 50px;
     border:none;
     padding: 10px;
@@ -144,20 +126,19 @@ body{
     border-radius: 20px;
     font-size: 40px;
     color:#FF7F50;
-
 }
+
 .Yi:focus {
     outline:none;
 }
-
 
 .quote {
     border: 1px solid rgba(255,255,255,0.01);
     margin-top: -50px;
     height: 50px;
     font-family:Amaranth;
-
 }
+
 .dbp {
     position: absolute;
     height:550px;
@@ -166,25 +147,22 @@ body{
     z-index:-50;
     background-image: linear-gradient(45deg,rgba(174, 214, 241,0.1),rgba(93, 173, 226  ,0.8),rgba(174, 214, 241,0.1));
     background-size: 100% 500%;
-
 }
-
 
 .navbar-toggler:focus{
     outline:none;
 }
 
-
-
 .show {
-        margin-left: -20px;
-        margin-right: -20px;
-        background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(236, 233, 230, 0.8));
+    margin-left: -20px;
+    margin-right: -20px;
+    background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(236, 233, 230, 0.8));
     z-index:1;
-    }
+}
 
-.bg-pan-bottom{-webkit-animation:bg-pan-bottom 4s both;animation:bg-pan-bottom 4s both}
-
+.bg-pan-bottom{
+    -webkit-animation:bg-pan-bottom 4s both;animation:bg-pan-bottom 4s both;
+}
 
 @-webkit-keyframes bg-pan-bottom {
     0% {
@@ -194,6 +172,7 @@ body{
         background-position: 50% 100%;
     }
 }
+
 @keyframes bg-pan-bottom {
     0% {
         background-position: 50% 0%;
@@ -213,6 +192,7 @@ body{
         transform: scale(0.9);
     }
 }
+
 @keyframes hvr-pulse {
     25% {
         -webkit-transform: scale(1.1);
@@ -223,9 +203,6 @@ body{
         transform: scale(0.9);
     }
 }
-
-
-
 
 @-webkit-keyframes hvr-icon-hang {
     0% {
@@ -241,6 +218,7 @@ body{
         transform: translateY(6px);
     }
 }
+
 @keyframes hvr-icon-hang {
     0% {
         -webkit-transform: translateY(6px);
@@ -255,18 +233,21 @@ body{
         transform: translateY(6px);
     }
 }
+
 @-webkit-keyframes hvr-icon-hang-sink {
     100% {
         -webkit-transform: translateY(6px);
         transform: translateY(6px);
     }
 }
+
 @keyframes hvr-icon-hang-sink {
     100% {
         -webkit-transform: translateY(6px);
         transform: translateY(6px);
     }
 }
+
 .hvr-icon-hang {
     display: inline-block;
     vertical-align: middle;
@@ -307,7 +288,6 @@ body{
 
 .hang2{
     text-align:center;
-
     text-decoration:none;
 }
 
@@ -323,23 +303,18 @@ body{
 }
 
 .overView {
-
-
     margin-top: 100px;
 }
 
 .questionHeader {
     padding: 10px;
 }
+
 .food .travel .comp .me{
-
-
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
-
 
 .I {
     color: #7D3C98;
@@ -350,15 +325,10 @@ body{
     margin-bottom: 80px;
     font-family: "Amaranth";
     border-left: 6px solid #2ECC71;
-
-
 }
 
 .personal {
-
-
     margin-top: 50px;
-
 }
 
 .me{
@@ -375,7 +345,6 @@ body{
     text-align: center;
     font-family: "Amaranth";
     padding-bottom: 40px;
-
 }
 
 #pe{
@@ -397,7 +366,6 @@ body{
     z-index: 99;
     border: none;
     outline: none;
-
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
@@ -423,12 +391,9 @@ body{
 @media (max-width: 480px) {
     .questionHeader {
         font-size:25px;
-
     }
 
     .realme {
         font-size:30px;
     }
-
-
 }
