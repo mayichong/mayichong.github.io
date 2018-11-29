@@ -115,7 +115,7 @@ body{
 }
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
 
-    color: #F5B7B1;
+    color: #ABB2B9;
 }
 
 .selected {
@@ -722,3 +722,22 @@ body{
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
 }
+
+.btn{
+	outline:none;
+	background-color:transparent;
+}
+
+.fb{
+	color:#3b5998;
+}
+
+.tw{
+	color: #38A1F3;
+}
+
+button:focus {
+  box-shadow: none !important;
+  outline: none !important; 
+}
+
