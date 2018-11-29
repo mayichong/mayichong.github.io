@@ -166,7 +166,7 @@ body{
 .show {
     margin-left: -20px;
     margin-right: -20px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(236, 233, 230, 0.3));
+    background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(236, 233, 230, 0.8));
     z-index:1;
 }
 
