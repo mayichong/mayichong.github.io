@@ -45,12 +45,6 @@ html {
     padding:5px;
 }
 
-.container-fluid {
-
-    margin-left: -100px;
-}
-
-
 .navbar-nav {
     float:none;
     display: block;
@@ -64,9 +58,7 @@ html {
 
 body{
     background-image:url("../images/b2.jpg");
-
 }
-
 
 .hvr-underline-from-center  {
     display: inline-block;
@@ -118,50 +110,13 @@ body{
     color: #85C1E9;
 }
 
-
-
 .selected {
-
     font-weight: bold;
-}
-
-
-.Yichong {
-    font-family:Sofia;
-    text-align:center;
-    padding-top: 200px;
-
-}
-
-.Yi {
-
-    margin-top: 50px;
-    border:none;
-    padding: 10px;
-    background-color:transparent;
-    border-radius: 20px;
-    font-size: 40px;
-    color:#FF7F50;
-
-}
-.Yi:focus {
-    outline:none;
-}
-
-
-.quote {
-    border: 1px solid rgba(255, 255, 255, 0.01);
-    margin-top: -50px;
-    height: 50px;
-    font-family: Amaranth;
-
 }
 
 .navbar-toggler:focus{
     outline:none;
 }
-
-
 
 .show {
     margin-left: -20px;
@@ -171,7 +126,6 @@ body{
 }
 
 .bg-pan-bottom{-webkit-animation:bg-pan-bottom 4s both;animation:bg-pan-bottom 4s both}
-
 
 @-webkit-keyframes bg-pan-bottom {
     0% {
@@ -210,8 +164,6 @@ body{
         transform: scale(0.9);
     }
 }
-
-
 
 
 @-webkit-keyframes hvr-icon-hang {
@@ -303,60 +255,10 @@ body{
     position:absolute;
 }
 
-.overView {
-
-
-    margin-top: 100px;
-}
-
-.questionHeader {
-    padding: 10px;
-}
-.food .travel .comp .me{
-
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-
-.I {
-    color: #7D3C98;
-}
-
-.quotes{
-    text-align: center;
-    margin-bottom: 80px;
-    font-family: "Amaranth";
-    border-left: 6px solid #2ECC71;
-
-
-}
-
-.personal {
-
-
-    margin-top: 50px;
-
-}
-
-.me{
-    margin-bottom: 40px;
-}
-
 .hang3{
     text-align:center;
     margin-top: 40px;
     text-decoration:none;
-}
-
-.realme{
-    text-align: center;
-    font-family: "Amaranth";
-    padding-bottom: 40px;
-
 }
 
 #pe{
